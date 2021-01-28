@@ -6,7 +6,7 @@ import pandas as pd
 from matplotlib import pyplot as plt
 
 # Read in dataset
-df = pd.read_csv("data/bank_data.csv")
+df = pd.read_csv("datasets/bank_data.csv")
 df.head()
 
 # Plotting the relationship between age and recovery amount
